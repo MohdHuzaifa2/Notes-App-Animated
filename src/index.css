@@ -11,3 +11,13 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.foreground::-webkit-scrollbar {
+  appearance: none;
+  -webkit-appearance: none;
+  display: none;
+}
+
+.foreground {
+  scrollbar-width: 0;
+}
